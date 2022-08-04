@@ -1,0 +1,38 @@
+﻿@model List<Cinema_App.Models.ViewModels.UserRoleViewModel>
+    <link rel="stylesheet" href="~/css/Adminstrative.css" />
+<link rel="stylesheet" href="~/css/EditUserInRole.css" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>
+
+    </title>
+</head>
+<body>
+    <div class="topnav">
+        <a asp-controller="Home" asp-action="Index">Home</a>
+        <a asp-controller="Administration" asp-action="CreateRole">Add New Role</a>
+        <a asp-controller="Administration" asp-action="RoleList">Role List</a>
+    </div>
+    <form class="box" method="post" as>
+<div class="UsersList">
+    <h1>Add or Remove Users from role</h1>
+    <ul>
+        @for (int i = 0; i < Model.Count; i++)
+        {
+        <li>
+            <input hidden asp-for="@Model[i].UserId" />
+            <input hidden asp-for="@Model[i].UserName" />
+
+            <input  asp-for="@Model[i].IsSelected" />
+            <label  asp-for="@Model[i].IsSelected style=" color:black">@Model[i].UserName</label>
+
+        </li>
+        }
+    </ul>
+
+    <input type="submit" value="Update" />
+</div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,46 @@
+﻿@using Cinema_App.Controllers
+
+@model Cinema_App.Models.ViewModels.EditRoleViewModel
+
+<link rel="stylesheet" href="~/css/site.css" />
+<link rel="stylesheet" href="~/css/Adminstrative.css" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+     
+        <div class="topnav">
+            <a  asp-controller="Home" asp-action="Index">Home</a>
+            <a asp-controller="Administration" asp-action="CreateRole">Add New Role</a>
+            <a asp-controller="Administration" asp-action="RoleList">Role List</a>
+
+           
+        </div>
+    @{
+        var RoleId = ViewBag.RoleId;
+
+    }
+<form class="box" method="post">
+    <div asp-validation-summary="All" style="color:red"></div>
+    <input disabled style="width:300px" type="text" asp-for="Id" />
+    <input type="text" asp-for="Name" />
+
+    <input type="submit" value="Update" />
+    @if (Model.Users.Any())
+    {
+        foreach (var user in Model.Users)
+        {
+            <h5>@user</h5>
+        }
+    }
+    else
+    {
+        <h5 style="color:white; font-size:30px;">None at the moment</h5>
+    }
+    <a asp-controller="Administration" asp-action="EditUserInRole" asp-route-roleId="@Model.Id" value="Add Or Remove Users">Add or Remove Users</a>
+
+
+</form>
+</body>
+</html>

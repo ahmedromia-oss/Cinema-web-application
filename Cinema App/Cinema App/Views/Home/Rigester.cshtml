@@ -1,0 +1,52 @@
+﻿@inject SignInManager<ApplicationUser> signnManager;
+@model Cinema_App.Models.User
+
+<link rel="stylesheet" href="~/css/Adminstrative.css" />
+<link rel="stylesheet" href="~/css/site.css" />
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>
+            Register
+        </title>
+    </head>
+    <body>
+        <div class="topnav">
+            <a asp-controller="Home" asp-action="Index">Home</a>
+           
+
+
+        </div>
+
+        <form class="box" method="post">
+
+
+            <h1>Rigester</h1>
+
+            <div asp-validation-summary="All" style="color:red"></div>
+
+
+            <input asp-for="Email" type="text" placeholder="E-Mail" class="form-control" />
+
+
+
+
+
+            <input asp-for="Password" type="password" placeholder="Password" class="form-control" />
+
+
+
+
+
+            <input asp-for="ConfirmPassword" type="password" placeholder="Confirm Password" class="form-control" />
+
+
+            <input type="submit" value="Create" />
+            <input type="submit" value="Already have an account" asp-controller="Home" asp-action="Login" />
+        </form>
+
+               
+
+    </body>
+</html>

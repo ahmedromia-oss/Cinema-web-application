@@ -1,0 +1,96 @@
+﻿@model Movie
+
+
+
+@inject SignInManager<ApplicationUser> signInManager;
+
+<link rel="stylesheet" href="~/css/MovieDetails.css" />
+<link rel="stylesheet" href="~/css/Adminstrative.css"/>
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+ 
+    <title>
+    </title>
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a asp-controller="Home" asp-action="Index">Home</a>
+        @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+        {
+            <a asp-controller="Home" asp-action="AddingMovie" asp-route-id="@Model.Id">Movie Setting</a>
+        }
+
+    </div>
+
+    @{
+        string minute = Model.DateTime.Minute.ToString();
+    }
+
+
+
+    <div class="Movie">
+        <div class="MovieDecribtion">
+            <div class="Name">
+                <strong>@Model.Name</strong>
+            </div>
+            <div class="Duration">
+                <strong>Movie Duration: @Model.Duration</strong>
+            </div>
+            <h2>MOVIE DESCRIPTION</h2>
+            <div class="describe">
+
+                <strong>@Model.Describtion</strong>
+            </div>
+           
+            
+            <a asp-controller="Home" asp-action="MovieAddUser" asp-route-id="@Model.Id">Book:@Model.FullNumberOfTickets Left</a>
+            
+           
+            
+
+
+
+        </div>
+        <div class="Nothing">
+            <strong style="font-size:100px; color:white">
+                <i class="fas fa-calendar-week"></i>
+                @Model.DateTime.Day/@Model.DateTime.Month/@Model.DateTime.Year
+            </strong>
+            <br />
+            <br />
+            <br />
+            <br />
+
+
+
+            @if (minute.Length == 1)
+            {
+                minute = "0" + minute;
+        <strong style="font-size:50px;color:white">
+            <i class="fas fa-clock"></i>
+            @Model.DateTime.Hour:@minute
+        </strong>
+            }
+
+            else
+            {
+        <strong style="font-size:50px;color:white">
+            <i class="fas fa-clock"></i>
+            @Model.DateTime.Hour:@Model.DateTime.Minute
+        </strong>
+            }
+
+        </div>
+    </div>
+
+
+
+</body>
+</html>
+<style>
+</style>

@@ -1,0 +1,47 @@
+﻿@model LoginViewModel
+    <link rel="stylesheet" href="~/css/Adminstrative.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head><title></title></head>
+    <body>
+
+
+        <div class="topnav">
+            <a asp-controller="Home" asp-action="Index">Home</a>
+           
+
+
+        </div>
+               
+        <form class="box" method="post">
+
+            <h1>Login</h1>
+            <div asp-validation-summary="All" style="color:red"></div>
+
+
+            <input type="text" placeholder="E-Mail" asp-for="Email" class="form-control" />
+
+
+
+
+            <input type="password" asp-for="password" placeholder="Password" class="form-control" />
+
+
+
+            <label asp-for="RememberMe">
+                <input asp-for="RememberMe" />
+                <strong>Remember Me</strong>
+            </label>
+
+
+
+            <input type="submit" value="Login">
+            <input type="submit" asp-controller="Home" asp-action="Rigester" value="Rigester" />
+        </form>
+                        
+                    
+                
+           
+    </body>
+</html>

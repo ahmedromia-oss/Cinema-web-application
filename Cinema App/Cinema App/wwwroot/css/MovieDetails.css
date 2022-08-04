@@ -1,0 +1,115 @@
+﻿
+body{
+    background-image:url(../lib/Images/MovieDetailsBackGround.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:100% 100%
+}
+
+
+.MovieDecribtion {
+    background-color: rgba(0, 0, 0, 0.84);
+    float: left;
+    width: 500px;
+    height:500px;
+    position:absolute;
+    padding:10px;
+    margin:30px;
+}
+.Movie{
+    align-items:stretch;
+
+    
+}
+.Nothing{
+    float:right;
+
+    
+    
+}
+
+
+
+.MovieDecribtion form label {
+    color: white;
+}
+.MovieDecribtion form input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 40px, 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+}
+.MovieDecribtion form input[type="submit"]:hover {
+        background: #2ecc71;
+        transition:ease 0.2s;
+}
+
+.Name{
+    margin:40px;
+    width:400px;
+    height:100px;
+    
+    text-align:center
+}
+
+.Name strong{
+    font-size:50px;
+    color:white;
+    
+}
+
+.Duration{
+    margin-bottom:40px;
+}
+
+.Duration strong{
+    
+    color:white;
+    letter-spacing:1px;
+}
+h2{
+    color:white;
+    margin-left:115px;
+    
+}
+.describe strong {
+    color: white;
+    
+
+}
+
+.describe{
+    width:400px;
+   padding:30px;
+    border:solid 1px #ff6a00;
+    border-radius:24px;
+    margin-bottom:50px;
+}
+
+
+.Movie a {
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-radius: 20px;
+    border: 1px solid;
+    color: white;
+    background-color: #2189b6;
+    text-decoration-line: none;
+}
+
+.Movie a:hover{
+    background-color:black;
+}

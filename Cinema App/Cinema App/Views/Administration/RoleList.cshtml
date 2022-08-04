@@ -1,0 +1,66 @@
+﻿@model IEnumerable<IdentityRole>
+
+<link rel="stylesheet" href="~/css/Adminstrative.css" />
+<link rel="stylesheet" href="~/css/site.css" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>
+        All Roles
+        </title>
+    </head>
+    <body>
+        <div class="topnav">
+            <a asp-controller="Home" asp-action="Index">Home</a>
+            <a asp-controller="Administration" asp-action="CreateRole">Add New Role</a>
+            <a asp-controller="Administration" asp-action="RoleList">Role List</a>
+
+        </div>
+        
+       <ul class="Admins">
+        @if (Model.Any())
+        {
+            
+         
+            foreach (var role in Model)
+            {
+             <li>
+                <div class="lox">
+                    <div style="color: #be2c2c; margin-bottom: 7px;" class="card-header">
+                        <strong style="color:red">Role Id</strong> : @role.Id
+                    </div>
+                    <div style=" color: #be2c2c" class="card-body">
+                        <strong style="color:red">Role Name</strong> : @role.Name
+                    </div>
+                    <div class="card-footer">
+                        <a asp-controller="Administration" asp-action="EditRole" asp-route-id="@role.Id" >Edit</a>
+                        <a href="#" class="btn btn-primary">Delete</a>
+                      
+                    </div>
+                </div>
+             </li>
+            }
+           
+         
+            
+        }
+        else
+        {
+            <li>
+            <div class="card">
+                <div class="card-header">
+                    No Roles Yet
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Use The button below to create a Role
+                    </h5>
+                    <a class="btn btn-primary" style="width:auto" asp-controller="Administration" asp-action="CreateRole">
+                        Create Role
+                    </a>
+                </div>
+            </div>
+           </li>
+        }
+           </ul>
+    </body>
+</html>

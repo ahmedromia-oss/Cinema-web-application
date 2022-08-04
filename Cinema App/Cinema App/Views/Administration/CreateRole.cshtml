@@ -1,0 +1,19 @@
+﻿@model Cinema_App.Models.ViewModels.RoleViewModel
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/Adminstrative.css" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head><title></title></head>
+    <body>
+        <div class="topnav">
+            <a asp-controller="Home" asp-action="Index">Home</a>
+            <a asp-controller="Administration" asp-action="CreateRole">Add New Role</a>
+            <a asp-controller="Administration" asp-action="RoleList">Role List</a>
+        </div>
+        <form class="box" method="post" asp-controller="Administration" asp-action="CreateRole">
+            <h1>Add Role</h1>
+            <div asp-validation-summary="All" style="color:red"></div>
+            <input type="text" placeholder="Role Name" asp-for="RoleName" />
+            <input type="submit" value="Create Role" />
+        </form>
+    </body>
+</html>

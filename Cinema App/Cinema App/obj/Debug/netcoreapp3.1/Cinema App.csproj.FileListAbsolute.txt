@@ -1,0 +1,194 @@
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Cinema App.exe
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Cinema App.deps.json
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Cinema App.runtimeconfig.json
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Cinema App.runtimeconfig.dev.json
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Cinema App.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Cinema App.pdb
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Cinema App.Views.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Cinema App.Views.pdb
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.csprojAssemblyReference.cache
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.AssemblyInfoInputs.cache
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.AssemblyInfo.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.csproj.CoreCompileInputs.cache
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.RazorAssemblyInfo.cache
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.RazorAssemblyInfo.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\staticwebassets\Cinema App.StaticWebAssets.Manifest.cache
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\staticwebassets\Cinema App.StaticWebAssets.xml
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\scopedcss\bundle\Cinema App.styles.css
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.TagHelpers.input.cache
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.TagHelpers.output.cache
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.RazorCoreGenerate.cache
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.RazorTargetAssemblyInfo.cache
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.RazorTargetAssemblyInfo.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.Views.pdb
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.pdb
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.genruntimeconfig.cache
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.csproj.CopyComplete
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\Rigester.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddingMovie.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\MovieDetails.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Administration\CreateRole.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Administration\RoleList.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditRole.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditUserInRole.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\MovieAddUser.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\RedirectToCorrectMovie.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\ThisMonth.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\ThisYear.cshtml.g.cs
+C:\Users\Abdel Fattah Romiah\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\Profile.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.pdb
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Cinema App.StaticWebAssets.xml
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Cinema App.exe
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Cinema App.deps.json
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Cinema App.runtimeconfig.json
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Cinema App.runtimeconfig.dev.json
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Cinema App.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Cinema App.pdb
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Cinema App.Views.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Cinema App.Views.pdb
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.csproj.AssemblyReference.cache
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.AssemblyInfoInputs.cache
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.AssemblyInfo.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.RazorAssemblyInfo.cache
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.RazorAssemblyInfo.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\staticwebassets\Cinema App.StaticWebAssets.Manifest.cache
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.TagHelpers.input.cache
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.TagHelpers.output.cache
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.RazorCoreGenerate.cache
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Administration\CreateRole.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditRole.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditUserInRole.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Administration\RoleList.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddingMovie.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\MovieAddUser.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\MovieDetails.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\Profile.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\RedirectToCorrectMovie.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\Rigester.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\ThisMonth.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Home\ThisYear.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.RazorTargetAssemblyInfo.cache
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.RazorTargetAssemblyInfo.cs
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.Views.pdb
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.csproj.CopyComplete
+C:\Users\Ahmed\Desktop\Cinematic\Cinema App\Cinema App\obj\Debug\netcoreapp3.1\Cinema App.genruntimeconfig.cache

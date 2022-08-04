@@ -1,0 +1,136 @@
+﻿
+
+@model Cinema_App.Models.ViewModels.MovieViewModel
+
+@inject SignInManager<ApplicationUser> signInManager;
+<link rel="stylesheet" href="~/css/site.css" />
+<link rel="stylesheet" href="~/css/Adminstrative.css" />
+
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div class="topnav">
+       
+        <a asp-controller="Home" asp-action="Index">Home</a>
+        @if (Model != null)
+        {
+            <a asp-controller="Home" asp-action="MovieDetails" asp-route-id="@ViewBag.id">Back To "@Model.Name"</a>
+        }
+
+        @{
+            var num = 1;
+
+        }
+
+
+
+
+    </div>
+    @if (Model != null)
+    {
+        <form  style="margin-left:620px;" method="post" asp-controller="Home" asp-action="DeleteMovie" asp-route-id="@ViewBag.id">
+            <button style="
+        border: 0;
+        background-color: red;
+        display: block;
+
+        text-align: center;
+        border: 2px solid #2ecc71;
+        margin-top:10px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor: pointer;
+        height: 30px;
+
+
+
+    "
+                    type="submit" value="Delete Movie">
+                <i class="fas fa-trash-alt"></i>
+                <strong >Delete Movie</strong>
+            </button>
+        </form>
+    }
+
+<form enctype="multipart/form-data" class="box" method="post" style="margin-top:120px;">
+
+    @if (ViewBag.id == 0)
+    {
+        <h1>Add Movie</h1>
+    }
+    else
+    {
+        <h1>Update Movie</h1>
+    }
+
+
+
+
+
+
+
+
+    <div asp-validation-summary="All"></div>
+    <input type="text" asp-for="Name" placeholder="Movie's name" />
+    <input type="text" asp-for="Describtion" placeholder="Movie's Describtion" />
+    <input asp-for="Duration" placeholder="Movie's Duration" />
+    <br />
+    @if (DateTime.Now.Month == 12)
+    {
+        int future = (DateTime.Now.Year) + 1;
+        <input asp-for="Year" placeholder="Movie's year" min="@DateTime.Now.Year" max="@future" />
+    }
+    else
+    {
+        <input style="width:100px;" asp-for="Year" placeholder="Movie's year" min="@DateTime.Now.Year" max=@DateTime.Now.Year />
+    }
+    <br />
+
+
+    <input asp-for="Month" placeholder="Movie's month" />
+
+    <input asp-for="Day" placeholder="Movie's day" />
+
+    <input asp-for="Hour" placeholder="Movie's hour" />
+
+    <input asp-for="Minute" placeholder="Movie's minutes" />
+    @if (ViewBag.id == 0)
+    {
+        <input style="color:red" asp-for="JustPhoto" />
+    }
+    <input type="number" asp-for="NumberOfTickets" placeholder="Maximum Tickets" />
+
+
+
+
+
+
+
+
+
+    @if (ViewBag.id == 0)
+    {
+        <input type="submit" value="Add Movie" />
+
+    }
+    else
+    {
+        <input type="submit" value="Update Movie" />
+
+
+    }
+
+</form>
+
+
+
+</body>
+
+</html>

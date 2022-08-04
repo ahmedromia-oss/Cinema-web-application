@@ -1,0 +1,182 @@
+﻿@model IEnumerable<Movie>
+
+
+
+@inject SignInManager<ApplicationUser> signInManager;
+
+
+
+<link rel="stylesheet" href="~/css/Home.css" />
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8" />
+    <title>
+
+    </title>
+
+</head>
+
+<body>
+    @{
+        var photopath = "";
+    }
+    <nav>
+        <ul class="menu">
+            
+            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+        </ul>
+        
+
+    </nav>
+    <section id="main">
+        <div class="Content">
+            <div id="Home">
+                @if (Model.Any())
+                {
+                    <ul>
+
+
+
+                        @foreach (var movie in Model)
+                        {
+                            photopath = movie.PhotoPath;
+                            <li>
+                                <form method="post" asp-controller="Home" asp-action="MovieDetails" asp-route-id="@movie.Id">
+                                    <div class="movie">
+                                        <div class="latest-box">
+                                            <img src="~/lib/Images/@photopath" />
+                                        </div>
+                                        <div class="movie">
+                                            <button type="submit">
+                                                <div class="describe">
+                                                    <strong>@movie.Name</strong>
+                                                </div>
+                                            </button>
+
+                                        </div>
+                                    </div>
+
+                                </form>
+
+                            </li>
+                        }
+
+
+
+
+
+
+                    </ul>
+                }
+                else
+                {
+                    <strong style="color:white; font-size:100px;">No Movies Booked</strong>
+                }
+            </div>
+            <div id="MainMenu">
+                <ul>
+                    @if (signInManager.IsSignedIn(User))
+                    {
+                        <li>
+                            <form method="post" asp-controller="Home" asp-action="Profile">
+                                <button 
+                                        style="
+    color: orange;
+        background-color: rgba(213, 111, 0, 0.29);
+        cursor: pointer;
+        transition: all ease 0.3s;
+    "
+
+                                        type="submit">
+                                    <i class="far fa-user-circle"></i>
+                                    <strong>Profile</strong>
+                                </button>
+                            </form>
+
+
+                        </li>
+                        <li>
+                            <form method="post">
+                                <button type="submit" asp-controller="Home" asp-action="LogOut">
+                                    <i class="fas fa-door-open"></i>
+                                    <strong>Logout</strong>
+
+
+                                </button>
+                            </form>
+
+
+
+                        </li>
+
+                        if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                        {
+                            var id = 0;
+                            <li>
+                                <form method="post">
+                                    <button type="submit" asp-controller="Home" asp-action="AddingMovie" asp-route-id="@id">
+                                        <i class="fas fa-plus-square"></i>
+                                        <strong>Add</strong>
+
+
+                                    </button>
+                                </form>
+
+
+
+                            </li>
+                            <li>
+                                <form method="post" asp-controller="Administration" asp-action="CreateRole">
+                                    <button type="submit">
+                                        <i class="fas fa-crown"></i>
+                                        <strong>Admin</strong>
+
+
+                                    </button>
+                                </form>
+
+
+
+                            </li>
+                        }
+                    }
+
+
+                    else
+                    {
+                        <li>
+                            <form method="post">
+                                <button type="submit" asp-controller="Home" asp-action="Rigester">
+                                    <i class="fab fa-stripe-s"></i>
+                                    <strong>Signin</strong>
+                                </button>
+                            </form>
+
+
+                        </li>
+                        <li>
+                            <form method="post">
+                                <button type="submit" asp-controller="Home" asp-action="Login">
+                                    <i class="fas fa-sign-in-alt"></i>
+                                    <strong>Login</strong>
+
+
+                                </button>
+                            </form>
+
+
+                        </li>
+
+                    }
+
+                </ul>
+            </div>
+        </div>
+
+
+    </section>
+
+</body>
+</html>

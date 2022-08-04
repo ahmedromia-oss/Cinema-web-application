@@ -1,0 +1,187 @@
+﻿@model Cinema_App.Models.ViewModels.MovieSearchingViewModel
+
+
+
+@inject SignInManager<ApplicationUser> signInManager;
+
+
+
+<link rel="stylesheet" href="~/css/Home.css" />
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8" />
+    <title>
+
+    </title>
+
+</head>
+
+<body>
+    @{ 
+        var photopath = "";
+    }
+    <nav>
+        <a href="#" class="logo">
+            <img src="~/lib/Images/cinema-room-background.jpg" />
+        </a>
+        <ul class="menu">
+            <li><a style="background-color:red;border-radius: 24px;"  asp-controller="Home" asp-action="index">Today</a></li>
+            <li><a  asp-controller="Home" asp-action="ThisMonth">This Month</a></li>
+            <li><a asp-controller="Home" asp-action="ThisYear">This Year</a></li>
+        </ul>
+        <form method="post">
+            <div class="search">
+
+                <input asp-for="SearchTerm"  type="text" placeholder="Find Your Favourite Movie" />
+                <i class="fas fa-search"></i>
+                
+            </div>
+            
+        </form>
+
+    </nav>
+    <section id="main">
+        <div class="Content">
+            <div id="Home">
+                @if (Model.Movies.Any())
+                {
+                    <ul>
+
+
+
+                        @foreach (var movie in Model.Movies)
+                        {
+                            photopath = movie.PhotoPath;
+                            <li>
+                                <form method="post" asp-controller="Home" asp-action="MovieDetails" asp-route-id="@movie.Id">
+                                    <div class="movie">
+                                        <div class="latest-box">
+                                            <img src="~/lib/Images/@photopath" />
+                                        </div>
+                                        <div class="movie">
+                                            <button type="submit">
+                                                <div class="describe">
+                                                    <strong>@movie.Name</strong>
+                                                </div>
+                                            </button>
+
+                                        </div>
+                                    </div>
+
+                                </form>
+
+                            </li>
+                        }
+
+
+
+
+
+
+                    </ul>
+                }
+                else
+                {
+                    <strong style="color:white; font-size:150px;">No Movies Yet</strong>
+                }
+            </div>
+            <div id="MainMenu">
+                <ul>
+                    @if (signInManager.IsSignedIn(User))
+                    {
+                        <li>
+                            <form method="post" asp-controller="Home" asp-action="Profile">
+                                <button type="submit">
+                                    <i class="far fa-user-circle"></i>
+                                    <strong>Profile</strong>
+                                </button>
+                            </form>
+
+
+                        </li>
+                        <li>
+                            <form method="post">
+                                <button type="submit" asp-controller="Home" asp-action="LogOut">
+                                    <i class="fas fa-door-open"></i>
+                                    <strong>Logout</strong>
+
+
+                                </button>
+                            </form>
+
+
+
+                        </li>
+
+                                    if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                                    {
+                                        var id = 0;
+                            <li>
+                                <form method="post" >
+                                    <button type="submit" asp-controller="Home" asp-action="AddingMovie" asp-route-id="@id">
+                                        <i class="fas fa-plus-square"></i>
+                                        <strong>Add</strong>
+
+
+                                    </button>
+                                </form>
+
+
+
+                            </li>
+                            <li>
+                                <form method="post" asp-controller="Administration" asp-action="CreateRole">
+                                    <button type="submit" >
+                                        <i class="fas fa-crown"></i>
+                                        <strong>Admin</strong>
+
+
+                                    </button>
+                                </form>
+
+
+
+                            </li>
+                        }
+                    }
+
+
+                    else
+                    {
+                        <li>
+                            <form method="post">
+                                <button type="submit" asp-controller="Home" asp-action="Rigester">
+                                    <i class="fab fa-stripe-s"></i>
+                                    <strong>Signin</strong>
+                                </button>
+                            </form>
+
+
+                        </li>
+                        <li>
+                            <form method="post">
+                                <button type="submit" asp-controller="Home" asp-action="Login">
+                                    <i class="fas fa-sign-in-alt"></i>
+                                    <strong>Login</strong>
+
+
+                                </button>
+                            </form>
+
+
+                        </li>
+
+                    }
+
+                </ul>
+            </div>
+        </div>
+
+
+    </section>
+    
+
+</body>
+</html>

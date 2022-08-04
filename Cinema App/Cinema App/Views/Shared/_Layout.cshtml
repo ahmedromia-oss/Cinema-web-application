@@ -1,0 +1,160 @@
+﻿@model IEnumerable<Movie>
+
+
+
+    @inject SignInManager<ApplicationUser> signInManager;
+
+
+
+    <link rel="stylesheet" href="~/css/Home.css" />
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+
+        <meta charset="utf-8" />
+        <title>
+
+        </title>
+
+    </head>
+
+    <body>
+        @{
+            var photopath = "";
+        }
+        <nav>
+            <a href="#" class="logo">
+                <img src="~/lib/Images/cinema-room-background.jpg" />
+            </a>
+            <ul class="menu">
+                <li><a href="#">Today</a></li>
+                <li><a href="#">This week</a></li>
+                <li><a href="#">This month</a></li>
+            </ul>
+            <div class="search">
+
+                <input type="text" placeholder="Find Your Favourite Movie" />
+                <i class="fas fa-search"></i>
+            </div>
+
+        </nav>
+        <section id="main">
+            <div class="Content">
+                <div id="Home">
+                    @if (Model.Any())
+                    {
+                        <ul>
+
+
+
+                            @RenderBody();
+
+
+
+
+
+
+                        </ul>
+                    }
+                    else
+                    {
+                        <strong style="color:white; font-size:150px;">No Movies Yet</strong>
+                    }
+                </div>
+                <div id="MainMenu">
+                    <ul>
+                        @if (signInManager.IsSignedIn(User))
+                        {
+                            <li>
+                                <form method="post">
+                                    <button type="submit">
+                                        <i class="far fa-user-circle"></i>
+                                        <strong>Profile</strong>
+                                    </button>
+                                </form>
+
+
+                            </li>
+                            <li>
+                                <form method="post">
+                                    <button type="submit" asp-controller="Home" asp-action="LogOut">
+                                        <i class="fas fa-door-open"></i>
+                                        <strong>Logout</strong>
+
+
+                                    </button>
+                                </form>
+
+
+
+                            </li>
+
+                            if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                            {
+                                var id = 0;
+                                <li>
+                                    <form method="post">
+                                        <button type="submit" asp-controller="Home" asp-action="AddingMovie" asp-route-id="@id">
+                                            <i class="fas fa-plus-square"></i>
+                                            <strong>Add</strong>
+
+
+                                        </button>
+                                    </form>
+
+
+
+                                </li>
+                                <li>
+                                    <form method="post" asp-controller="Administration" asp-action="CreateRole">
+                                        <button type="submit">
+                                            <i class="fas fa-crown"></i>
+                                            <strong>Admin</strong>
+
+
+                                        </button>
+                                    </form>
+
+
+
+                                </li>
+                            }
+                        }
+
+
+                        else
+                        {
+                            <li>
+                                <form method="post">
+                                    <button type="submit" asp-controller="Home" asp-action="Rigester">
+                                        <i class="fab fa-stripe-s"></i>
+                                        <strong>Signin</strong>
+                                    </button>
+                                </form>
+
+
+                            </li>
+                            <li>
+                                <form method="post">
+                                    <button type="submit" asp-controller="Home" asp-action="Login">
+                                        <i class="fas fa-sign-in-alt"></i>
+                                        <strong>Login</strong>
+
+
+                                    </button>
+                                </form>
+
+
+                            </li>
+
+                        }
+
+                    </ul>
+                </div>
+            </div>
+
+
+        </section>
+
+    </body>
+</html>

@@ -1,0 +1,50 @@
+﻿@model MovieUser
+
+@inject SignInManager<ApplicationUser> signInManager;
+
+<link rel="stylesheet" href="~/css/Adminstrative.css" />
+<link rel="stylesheet" href="~/css/site.css" />
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>
+       
+    </title>
+</head>
+<body>
+    <div class="topnav">
+        <a asp-controller="Home" asp-action="Index">Home</a>
+        <a asp-controller="Home" asp-action="MovieDetails" asp-route-id="@ViewBag.id">Back to Movie</a>
+
+
+    </div>
+        <form class="box" method="post">
+            @if (Model == null)
+            {
+
+                
+                
+                    <label asp-for="@Model.Tickets">Enter Number of Tickets</label>
+                    <input asp-for="@Model.Tickets" />
+                    <br />
+                    <span style="color:red">@ViewBag.Error</span>
+                    <br />
+                
+
+                <input type="submit" value="Book now" />
+                 
+            }
+            else
+            {
+                
+                    <label asp-for="@Model.Tickets">Enter Number of Tickets</label>
+                    <input disabled asp-for="@Model.Tickets" />
+
+                
+
+                <input type="submit" value="Delete Booking" />
+            }
+        </form>
+</body>
+</html>
